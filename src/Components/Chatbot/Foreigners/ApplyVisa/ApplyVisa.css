@@ -1,0 +1,13 @@
+.citizens-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .citizens-button {
+    padding: 0.5rem;
+    border-radius: 25px;
+    background: transparent;
+    border: 1px solid #0099D5;
+    margin: 3px;
+  }
