@@ -91,9 +91,11 @@ export const TextWrapper = styled.div`
 `;
 
 export const ImgWrapper = styled.div`
-  max-width: 600px;
-  display: flex;
-  justify-content: center;
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
 `;
 
 export const TopLine = styled.div`

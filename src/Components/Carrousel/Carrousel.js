@@ -75,7 +75,7 @@ export default function Carrousel() {
   };
 
   return (
-    <div className={classes.root}>
+    <div  data-tut="reactour__news" className={classes.root}>
       <Paper square elevation={0} className={classes.header}>
         <Typography gutterBottom variant="h6" component="h3">{tutorialSteps[activeStep].label}</Typography>
       </Paper>

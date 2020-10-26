@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, Suspense, lazy } from 'react';
+
 import GlobalStyle from './globalStyles';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 // import Navbar from './Components/Navbar/Navbar';
@@ -19,7 +20,6 @@ function App() {
 
   return (
     <Router>
-      <GlobalStyle />
       <ScrollToTop />
       <Header />
       <Switch>

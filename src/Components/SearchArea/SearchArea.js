@@ -177,6 +177,7 @@ export default function SearchArea({
               className={classes.root}
             > */}
             <List
+              data-tut="reactour__links"
               component="nav"
               aria-labelledby="nested-list-subheader"
               className={classes.root}
