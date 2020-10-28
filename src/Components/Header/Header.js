@@ -194,11 +194,12 @@ export default function Header() {
           Ein interaktives Bürger-Service-Erlebnis.
           </Typography> */}
 
-          <div className={classes.search}>
+          {/* <div className={classes.search}>
             <div className={classes.searchIcon}>
               <SearchIcon />
             </div>
             <InputBase
+              data-tut="reactour__search"
               placeholder="Suchbegriff eingeben"
               classes={{
                 root: classes.inputRoot,
@@ -206,7 +207,7 @@ export default function Header() {
               }}
               inputProps={{ 'aria-label': 'search' }}
             />
-          </div>
+          </div> */}
 
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>

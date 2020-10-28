@@ -64,20 +64,27 @@ const tourConfig = [
   {
     selector: '[data-tut="reactour__start"]',
     content:
-      "Then let's go! We will show you around.",
+      "Alright, then let's go! Welcome to the new BayernPortal! We will show you around.",
   },
   {
     selector: '[data-tut="reactour__bot"]',
-    content: 'Here you can ask anything to your online assistant Bavaria!',
-
+    content: 'Here you can simply ask anything to Bavaria, your online assistant! She is your quickest way to find information. Just type anything and she will help you - she is extremely intelligent!',
+  },
+  // {
+  //   selector: '[data-tut="reactour__search"]',
+  //   content: 'But you can also use our search bar if you prefer!',
+  // },
+  {
+    selector: '[data-tut="reactour__news"]',
+    content: 'Here you can read some of the latest and most relevant news in Bavaria!',
   },
   {
     selector: '[data-tut="reactour__links"]',
-    content: 'Here you have the most accessed links in the portal.',
+    content: 'And here you can find the most accessed links in the portal.',
   },
   {
-    selector: '[data-tut="reactour__news"]',
-    content: 'Some of the latest and most relevant news in Bavaria!',
+    selector: '[data-tut="reactour__linksbar"]',
+    content: 'But feel free to scrool into the categories to see all the information that we have available here!',
   },
 ]
 
