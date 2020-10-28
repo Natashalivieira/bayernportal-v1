@@ -10,6 +10,7 @@ export const InfoRow = styled.div`
   margin: 0 -5px 5px -5px;
   flex-wrap: wrap;
   align-items: center;
+  max-width: 100%;
   /* flex-direction: ${({ imgStart }) => (imgStart ? 'row-reverse' : 'row')}; */
   @media screen and (max-width: 1024px) {
     max-width: 100%;
@@ -19,7 +20,7 @@ export const InfoRow = styled.div`
     padding-bottom: 5px;
     padding-top: 5px;
     padding-right: 5px;
-  padding-left: 5px;
+    padding-left: 5px;
   }
 `;
 

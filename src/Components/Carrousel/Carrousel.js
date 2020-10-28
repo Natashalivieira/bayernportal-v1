@@ -34,6 +34,11 @@ const useStyles = makeStyles((theme) => ({
     maxWidth: 600,
     maxHeight: 450,
     flexGrow: 1,
+    ['@media (max-width:680px)']: {
+      height: '50%',
+      width: '100%',
+      display: 'block',
+    },
   },
   header: {
     display: 'flex',
