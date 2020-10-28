@@ -189,43 +189,43 @@ export default function SearchArea({
                 <ListItemIcon>
                   <DescriptionIcon />
                 </ListItemIcon>
-                <Link href="#" onClick={preventDefault}>Meldebescheinigung Anmeldung {bull} Landeshauptstadt München</Link>
+                <Link href="#" onClick={preventDefault}>Meldebescheinigung {bull} Einfache Meldebescheinigung online anfordern</Link>
               </ListItem>
               <ListItem className={classes.link}>
                 <ListItemIcon>
                   <AssignmentIndIcon />
                 </ListItemIcon>
-                <Link href="#" onClick={preventDefault}>Reisepass Beantragung {bull} Landeshauptstadt München</Link>
+                <Link href="#" onClick={preventDefault}>Reisepass {bull} Beantragung {bull} Erstattung einer Anzeige bei Verlust und Wiederauffinden</Link>
               </ListItem>
               <ListItem className={classes.link}>
                 <ListItemIcon>
                   <RecentActorsIcon />
                 </ListItemIcon>
-                <Link href="#" onClick={preventDefault}>Personalausweis Beantragung {bull} Landeshauptstadt München</Link>
+                <Link href="#" onClick={preventDefault}>Personalausweis {bull} Beantragung {bull} Auskunft über den Bearbeitungsstand</Link>
               </ListItem>
               <ListItem className={classes.link}>
                 <ListItemIcon>
                   <CardMembershipIcon />
                 </ListItemIcon>
-                <Link href="#" onClick={preventDefault}>Blaue Karte EU Beantragung {bull} Landeshauptstadt Passau</Link>
+                <Link href="#" onClick={preventDefault}>Blaue Karte EU {bull} Beantragung {bull} Aufenthaltstitel zur Ausübung einer hochqualifizierten Beschäftigung</Link>
               </ListItem>
               <ListItem className={classes.link}>
                 <ListItemIcon>
                   <FavoriteIcon />
                 </ListItemIcon>
-                <Link href="#" onClick={preventDefault}>Blutspende {bull} Landeshauptstadt Passau</Link>
+                <Link href="#" onClick={preventDefault}>Blutspende {bull}  Überwachung der dezentralen Blutspendetermine</Link>
               </ListItem>
               <ListItem className={classes.link}>
                 <ListItemIcon>
                   <HealingIcon />
                 </ListItemIcon>
-                <Link href="#" onClick={preventDefault}>Apotheke Beantragung der Betriebserlaubnis {bull} Landeshauptstadt Nürnberg</Link>
+                <Link href="#" onClick={preventDefault}>Apotheke {bull} Beantragung der Betriebserlaubnis</Link>
               </ListItem>
               <ListItem className={classes.link}>
                 <ListItemIcon>
                   <SubtitlesIcon />
                 </ListItemIcon>
-                <Link href="#" onClick={preventDefault}>Aufenthaltstitel Beantragung {bull} Landeshauptstadt Nürnberg</Link>
+                <Link href="#" onClick={preventDefault}>Aufenthaltstitel {bull} Beantragung eines elektronischen Aufenthaltstitels</Link>
               </ListItem>
             </List>
 
