@@ -64,11 +64,11 @@ const tourConfig = [
   {
     selector: '[data-tut="reactour__start"]',
     content:
-      "Alright, then let's go! Welcome to the new BayernPortal! We will show you around.",
+      "Okay, dann lass uns gehen! Willkommen im neuen BayernPortal! Wir werden Sie herumführen.",
   },
   {
     selector: '[data-tut="reactour__bot"]',
-    content: 'Here you can simply ask anything to Bavaria, your online assistant! She is your quickest way to find information. Just type anything and she will help you - she is extremely intelligent!',
+    content: 'Hier können Sie einfach alles an Bayern, Ihren Online-Assistenten, fragen! Es ist der schnellste Weg, um Informationen zu finden. Geben Sie einfach etwas ein und es wird Ihnen helfen - es ist extrem intelligent!',
   },
   // {
   //   selector: '[data-tut="reactour__search"]',
@@ -76,15 +76,15 @@ const tourConfig = [
   // },
   {
     selector: '[data-tut="reactour__news"]',
-    content: 'Here you can read some of the latest and most relevant news in Bavaria!',
+    content: 'Hier können Sie einige der neuesten und relevantesten Nachrichten in Bayern lesen!',
   },
   {
     selector: '[data-tut="reactour__links"]',
-    content: 'And here you can find the most accessed links in the portal.',
+    content: 'Und hier finden Sie die am häufigsten aufgerufenen Links im Portal.',
   },
   {
     selector: '[data-tut="reactour__linksbar"]',
-    content: 'But feel free to scrool into the categories to see all the information that we have available here!',
+    content: 'Sie können jedoch jederzeit in die Kategorien scrollen, um alle Informationen anzuzeigen, die wir hier zur Verfügung haben!',
   },
 ]
 
