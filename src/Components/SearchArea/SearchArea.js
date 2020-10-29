@@ -42,10 +42,44 @@ const useStyles = makeStyles((theme) => ({
   header: {
     display: 'flex',
     alignItems: 'center',
-    height: 60,
-    paddingLeft: theme.spacing(2),
-    backgroundColor: '#3f51b5',
-    color: 'white',
+    height: 50,
+    // backgroundColor: '#3f51b5',
+    color: '#3f51b5',
+    borderBottomColor: '#3f51b5',
+    borderBottomStyle: 'solid',
+    borderBottomWidth: 1,
+    ['@media (max-width:680px)']: {
+      display: 'flex',
+      alignItems: 'center',
+      height: 50,
+      // backgroundColor: '#3f51b5',
+      color: '#3f51b5',
+      borderBottomColor: '#3f51b5',
+      borderBottomStyle: 'solid',
+      borderBottomWidth: 1,
+    },
+    
+  },
+
+  header2: {
+    display: 'flex',
+    alignItems: 'center',
+    height: 50,
+    // backgroundColor: '#3f51b5',
+    borderBottomColor: '#3f51b5',
+    borderBottomStyle: 'solid',
+    borderBottomWidth: 1,
+    ['@media (max-width:680px)']: {
+      display: 'flex',
+      alignItems: 'center',
+      height: 0,
+      // paddingLeft: theme.spacing(2),
+      // backgroundColor: '#3f51b5',
+      color: '#3f51b5',
+      borderBottomColor: '#fff',
+      borderBottomStyle: 'solid',
+      borderBottomWidth: 1,
+    },
   },
 
   link: {
@@ -75,46 +109,7 @@ const useStyles = makeStyles((theme) => ({
     paddingLeft: theme.spacing(4),
   },
 
-  search: {
-    alignItems: 'left',
-    position: 'left',
-    borderRadius: theme.shape.borderRadius,
-    backgroundColor: 'white',
-    // backgroundColor: fade(theme.palette.common.white, 0.15),
-    '&:hover': {
-      // backgroundColor: fade(theme.palette.common.white, 0.25),
-    backgroundColor: 'white',
-    },
-    marginRight: theme.spacing(1),
-    // marginLeft: 0,
-    width: '60%',
-    [theme.breakpoints.up('sm')]: {
-      marginLeft: theme.spacing(3),
-      // width: '30%',
-    },
-  },
-  searchIcon: {
-    padding: theme.spacing(0,1),
-    height: '100%',
-    position: 'absolute',
-    pointerEvents: 'none',
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  inputRoot: {
-    color: 'inherit',
-  },
-  inputInput: {
-    padding: theme.spacing(1,1,1,0),
-    // vertical padding + font size from searchIcon
-    paddingLeft: `calc(0.5em + ${theme.spacing(0)}px)`,
-    transition: theme.transitions.create('width'),
-    width: '80%',
-    [theme.breakpoints.up('sm')]: {
-      width: '80%',
-    },
-  },
+  
   toolbar: {
     minHeight: 8,
     alignItems: 'flex-start',
@@ -154,15 +149,47 @@ export default function SearchArea({
         <Container>
           <InfoRow>
 
-            <InfoColumn>
+            {/* <InfoColumn>
               <Carrousel />
-            </InfoColumn>
+            </InfoColumn> */}
 
             {/* <InfoColumn>
               <TextWrapper>
                 <Heading lightText={lightText}>{headline}</Heading>
               </TextWrapper>
             </InfoColumn> */}
+
+            <InfoColumn>
+            <List
+              data-tut="reactour__links"
+              component="nav"
+              aria-labelledby="nested-list-subheader"
+              className={classes.root}
+            >
+              <Paper square elevation={0} className={classes.header}>
+                <Typography gutterBottom variant="h6" component="h3">Am häufigsten gesuchte Leistungen</Typography>
+              </Paper>
+              <ListItem className={classes.link}>
+                <ListItemIcon>
+                  <DescriptionIcon />
+                </ListItemIcon>
+                <Link href="#" onClick={preventDefault}>Meldebescheinigung {bull} Einfache Meldebescheinigung online anfordern</Link>
+              </ListItem>
+              <ListItem className={classes.link}>
+                <ListItemIcon>
+                  <AssignmentIndIcon />
+                </ListItemIcon>
+                <Link href="#" onClick={preventDefault}>Reisepass {bull} Beantragung {bull} Erstattung einer Anzeige bei Verlust und Wiederauffinden</Link>
+              </ListItem>
+              <ListItem className={classes.link}>
+                <ListItemIcon>
+                  <RecentActorsIcon />
+                </ListItemIcon>
+                <Link href="#" onClick={preventDefault}>Personalausweis {bull} Beantragung {bull} Auskunft über den Bearbeitungsstand</Link>
+              </ListItem>
+            </List>
+
+            </InfoColumn>
 
              <InfoColumn2>
 
@@ -177,6 +204,35 @@ export default function SearchArea({
               className={classes.root}
             > */}
             <List
+              data-tut="reactour__links"
+              component="nav"
+              aria-labelledby="nested-list-subheader"
+              className={classes.root}
+            >
+              <Paper square elevation={0} className={classes.header2}>
+                <Typography gutterBottom variant="h6" component="h3"></Typography>
+              </Paper>
+              <ListItem className={classes.link}>
+                <ListItemIcon>
+                  <SubtitlesIcon />
+                </ListItemIcon>
+                <Link href="#" onClick={preventDefault}>Aufenthaltstitel {bull} Beantragung eines elektronischen Aufenthaltstitels</Link>
+              </ListItem>
+              <ListItem className={classes.link}>
+                <ListItemIcon>
+                  <FavoriteIcon />
+                </ListItemIcon>
+                <Link href="#" onClick={preventDefault}>Blutspende {bull}  Überwachung der dezentralen Blutspendetermine</Link>
+              </ListItem>
+              <ListItem className={classes.link}>
+                <ListItemIcon>
+                  <HealingIcon />
+                </ListItemIcon>
+                <Link href="#" onClick={preventDefault}>Apotheke {bull} Beantragung der Betriebserlaubnis</Link>
+              </ListItem>
+            </List>
+
+            {/* <List
               data-tut="reactour__links"
               component="nav"
               aria-labelledby="nested-list-subheader"
@@ -227,42 +283,8 @@ export default function SearchArea({
                 </ListItemIcon>
                 <Link href="#" onClick={preventDefault}>Aufenthaltstitel {bull} Beantragung eines elektronischen Aufenthaltstitels</Link>
               </ListItem>
-            </List>
+            </List> */}
 
-            {/*<Toolbar className={classes.toolbar}>
-              <TopLine lightTopLine={lightTopLine}>{topLine}</TopLine>
-            </Toolbar> */}
-            {/* <Toolbar className={classes.toolbar}>
-            <Subtitle lightTextDesc={lightTextDesc}>{description}</Subtitle>
-            </Toolbar> */}
-            {/* <Toolbar className={classes.toolbar}>
-              <div className={classes.search}>
-                <InputBase
-                placeholder="Suchbegriff eingeben"
-                classes={{
-                  root: classes.inputRoot,
-                  input: classes.inputInput,
-                }}
-                inputProps={{ 'aria-label': 'search' }}
-                />
-              </div>
-              <div className={classes.search}>
-                <InputBase
-                placeholder="Ort eingeben"
-                classes={{
-                  root: classes.inputRoot,
-                  input: classes.inputInput,
-                }}
-                inputProps={{ 'aria-label': 'search' }}
-                />
-              </div>
-              <Button>Suchen</Button>
-            </Toolbar> */}
-                {/* <Link to={buttonAction}>
-                  <Button big fontBig primary={primary}>
-                    {buttonLabel}
-                  </Button>
-                </Link> */}
 
             </InfoColumn2>
           </InfoRow>

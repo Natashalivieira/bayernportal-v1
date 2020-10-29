@@ -1,7 +1,12 @@
 import styled from 'styled-components';
 
 export const InfoSec = styled.div`
-  padding: 10px 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 10px;
+
   `;
 
 export const InfoRow = styled.div`
@@ -26,17 +31,17 @@ export const InfoRow = styled.div`
 
 export const InfoColumn = styled.div`
   margin-bottom: 0px;
-  padding-right: 5px;
-  padding-left: 5px;
+  /* padding-right: 5px; */
+  padding-left: 15px;
   max-width: 50%;
   @media screen and (max-width: 768px) {
     max-width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-bottom: 20px;
-    padding-top: 10px;
-    padding-right: 5px;
+    /* padding-bottom: 20px; */
+    /* padding-top: 10px; */
+    /* padding-right: 5px; */
   padding-left: 5px;
   }
   @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -44,8 +49,8 @@ export const InfoColumn = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-bottom: 20px;
-    padding-top: 10px;
+    /* padding-bottom: 20px; */
+    /* padding-top: 10px; */
     padding-right: 5px;
     padding-left: 5px;
   }
@@ -54,7 +59,7 @@ export const InfoColumn = styled.div`
 export const InfoColumn2 = styled.div`
     /* background: #0099D5; */
     padding-right: 5px;
-    padding-left: 5px;
+    /* padding-left: 5px; */
     max-width: 50%;
   @media screen and (max-width: 768px) {
     max-width: 100%;
@@ -62,16 +67,16 @@ export const InfoColumn2 = styled.div`
     justify-content: center;
     padding-right: 5px;
     padding-left: 5px;
-    padding-bottom: 40px;
-    padding-top: 20px;
+    /* padding-bottom: 40px; */
+    /* padding-top: 20px; */
   }
   @media screen and (min-width: 768px) and (max-width: 1024px) {
     max-width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-bottom: 40px;
-    padding-top: 20px;
+    /* padding-bottom: 40px; */
+    /* padding-top: 20px; */
     padding-right: 5px;
     padding-left: 5px;
   }

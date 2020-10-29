@@ -74,10 +74,10 @@ const tourConfig = [
   //   selector: '[data-tut="reactour__search"]',
   //   content: 'But you can also use our search bar if you prefer!',
   // },
-  {
-    selector: '[data-tut="reactour__news"]',
-    content: 'Hier können Sie einige der neuesten und relevantesten Nachrichten in Bayern lesen!',
-  },
+  // {
+  //   selector: '[data-tut="reactour__news"]',
+  //   content: 'Hier können Sie einige der neuesten und relevantesten Nachrichten in Bayern lesen!',
+  // },
   {
     selector: '[data-tut="reactour__links"]',
     content: 'Und hier finden Sie die am häufigsten aufgerufenen Links im Portal.',
