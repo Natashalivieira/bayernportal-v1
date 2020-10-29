@@ -33,7 +33,7 @@ export default function ReisepassCard() {
         />
         <CardContent>
           <Typography gutterBottom variant="h6" component="h3">
-          Reisepass
+          Reisepass {bull} Beantragung {bull} Verlängerung
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
           Der vorläufige Reisepass ist ein amtliches Ausweisdokument für Deutsche, der grundsätzlich zur Einreise in die Bundesrepublik Deutschland bzw. zur Ausreise aus der Bundesrepublik Deutschland benötigt wird. 

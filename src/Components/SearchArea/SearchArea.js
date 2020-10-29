@@ -147,7 +147,7 @@ export default function SearchArea({
     <>
       <InfoSec>
         <Container>
-          <InfoRow>
+          <InfoRow data-tut="reactour__links">
 
             {/* <InfoColumn>
               <Carrousel />
@@ -204,7 +204,7 @@ export default function SearchArea({
               className={classes.root}
             > */}
             <List
-              data-tut="reactour__links"
+              
               component="nav"
               aria-labelledby="nested-list-subheader"
               className={classes.root}

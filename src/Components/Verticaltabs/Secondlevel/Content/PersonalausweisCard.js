@@ -33,7 +33,7 @@ export default function PersonalausweisCard() {
         />
         <CardContent>
           <Typography gutterBottom variant="h6" component="h3">
-            Personalausweis
+            Personalausweis {bull} Beantragung {bull} Verlängerung
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
           Deutsche können dieses amtliche Ausweisdokument bei ihrer zuständigen Gemeinde beantragen. Zum 01.11.2010 wurde der neue elektronische Personalausweis im Scheckkartenformat eingeführt. 
